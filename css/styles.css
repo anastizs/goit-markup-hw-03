@@ -1,0 +1,84 @@
+:root{
+    --primery-text-color:#212121;
+    --title-text-color:#757575;
+    --accent-color: #2196F3;
+    --hero-title: #ffffff;
+    --bgr-color:#2F303A;
+
+}
+
+
+/* Основний колір тексту */
+body{
+    color: var(--primery-text-color);
+    background-color: var(--hero-title);
+}
+ /* другорядний колір тексту #757575*/
+  /* другорядний колір тексту #ffffff*/
+  /* Акцент #2196F3 */
+  /* другорядний фон #F5F4FA */
+  /* другорядний фон #2F303A*/
+
+
+  /* Шапка сторінки */
+.logo{
+    color: var(--primery-text-color);
+}
+span{
+    color: var(--accent-color);
+}
+.list{
+    list-style: none;
+}
+.page-header .link{
+    color: var(--primery-text-color);
+
+}
+.page-header .link:hover,
+.spage-header .link:focus{
+    color: var(--accent-color);
+}
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
+/* Герой */
+.hero{
+    background-color: var(--bgr-color);
+    color: var(--hero-title);
+}
+
+.hero-btn{
+    background: var(--accent-color);
+    color: var(--hero-title);
+}
+
+/* Особливості */
+.section{
+    color: var(--primery-text-color);
+}
+.section-text{
+    color: var(--title-text-color);
+}
+/* Чим ми займаємося */
+
+
+/* Наша команда */
+
+
+
+/* Підвал сторінки */
+.footer{
+    background-color: var(--bgr-color);
+    color: var(--hero-title);
+}
+.logo-footer{
+    color: var(--hero-title);
+
+}
+.link-footer{
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer .link:hover,
+.footer .link:focus {
+    color: var(--accent-color);
