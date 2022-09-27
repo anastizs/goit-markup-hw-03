@@ -189,6 +189,7 @@ letter-spacing: 0.03em;
 
 color: var(--primery-text-color);
 border: none;
+cursor: pointer;
 }
 
 .features-title{
@@ -199,8 +200,6 @@ border: none;
     letter-spacing: 0.06em;
 }
 .features-text{
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
      
