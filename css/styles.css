@@ -44,7 +44,7 @@ span{
 }
 
 .site-nav .link{
-    font-family: 'Roboto';
+    font-family: 'Roboto'sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -89,6 +89,7 @@ span{
 }
 
 .hero-btn{
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -114,7 +115,6 @@ span{
     text-transform: uppercase;
 }
 .section-text{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     
@@ -155,7 +155,6 @@ span{
     letter-spacing: 0.03em;
 }
 .section-team-text{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
     
@@ -185,7 +184,6 @@ span{
 }
 .footer-address{
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     text-decoration: none;
@@ -250,16 +248,10 @@ span{
 }
 
 .features-items{
-    box-sizing: border-box;
-    width: 370px;
-    height: 404px;
-    left: 1015px;
-    top: 696px;
-       
+           
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     display: inline-block;
-    margin-right: 30px;
-    margin-top: 30px;
+    
     
 }
