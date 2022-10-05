@@ -18,96 +18,182 @@
     <!-- Шапка сторінки -->
     <header class="page-header">
         <!-- Навігація на інші сторінки -->
-        <nav class="nav">
-            <a href="./index.html" class="logo"> <span>Web</span>Studio</a>
+        <div class="container">
+            <nav class="nav">
+                <a href="./index.html" class="logo"> <span>Web</span>Studio</a>
     
-            <ul class="site-nav list">
-                <li>
-                    <a href="./index.html" class="link">Студія</a>
-                </li>
-                <li>
-                    <a href="./portfolio.html" class="link current">Портфоліо</a>
-                </li>
-                <li>
-                    <a href="" class="link">Контакти</a>
-                </li>
-            </ul>
-            <ul class="contact-nav list">
+                <ul class="site-nav">
+                    <li>
+                        <a href="./index.html" class="link">Студія</a>
+                    </li>
+                    <li>
+                        <a href="./portfolio.html" class="link current">Портфоліо</a>
+                    </li>
+                    <li>
+                        <a href="" class="link">Контакти</a>
+                    </li>
+                </ul>
+    
+            </nav>
+            <ul class="contact-nav">
                 <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
                 <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
+    
+        </div>
+    
     
     </header>
     <!-- Унікальний контент сторінки -->
     <main>
         <section class="type-cards">
-            <ul class="search list">
-                <li>
-                    <button type="button" class="filtr">Усі</button>
-                </li>
-                <li>
-                    <button type="button" class="filtr">Веб-сайти</button>
-                </li>
-                <li>
-                    <button type="button" class="filtr">Додатки</button>
-                </li>
-                <li>
-                    <button type="button" class="filtr">Дизайн</button>
-                </li>
-                <li>
-                    <button type="button" class="filtr">Маркетинг</button>
-                </li>
-            </ul>
-            <ul class="features list">
-                <li class="features-items">
-                    <img src="./images/img1.jpg" alt="Технокряк" width="370" height="294">
-                    <h2 class="features-title">Технокряк</h2>
-                    <p class="features-text">Веб-сайт</p>
-                </li>
-                <li class="features-items">
-                    <img src="./images/img2.jpg" alt="Постер" width="370" height="294">
-                    <h2 class="features-title">Постер New Orlean vs Golden Star</h2>
-                    <p class="features-text">Дизайн</p>
-                </li>
-                <li class="features-items">
-                    <img src="./images/img3.jpg" alt="Ресторан" width="370" height="294">
-                    <h2 class="features-title">Ресторан Seafood</h2>
-                    <p class="features-text">Додаток</p>
-                </li>
-                <li class="features-items">
-                    <img src="./images/img4.jpg" alt="Проєкт" width="370" height="294">
-                    <h2 class="features-title">Проєкт Prime</h2>
-                    <p class="features-text">Маркетинг</p>
-                </li>
-                <li class="features-items">
-                    <img src="./images/img5.jpg" alt="Проєкт" width="370" height="294">
-                    <h2 class="features-title">Проєкт Boxes</h2>
-                    <p class="features-text">Додаток</p>
-                </li>
-                <li class="features-items">
-                    <img src="./images/img6.jpg" alt="Веб-сайт" width="370" height="294">
-                    <h2 class="features-title">Inspiration has no Borders</h2>
-                    <p class="features-text">Веб-сайт</p>
-                </li>
-                <li class="features-items">
-                    <img src="./images/img7.jpg" alt="Видання" width="370" height="294">
-                    <h2 class="features-title">Видання Limited Edition</h2>
-                    <p class="features-text">Дизайн</p>
-                </li>
-                <li class="features-items">
-                    <img src="./images/img8.jpg" alt="Проєкт" width="370" height="294">
-                    <h2 class="features-title">Проєкт LAB</h2>
-                    <p class="features-text">Маркетинг</p>
-                </li>
-                <li class="features-items">
-                    <img src="./images/img9.jpg" alt="Додаток" width="370" height="294">
-                    <h2 class="features-title">Growing Business</h2>
-                    <p class="features-text">Додаток</p>
-                </li>
-                
+            <div>
+                <ul class="search list">
+                    <li>
+                        <button type="button" class="filtr">Усі</button>
+                    </li>
+                    <li>
+                        <button type="button" class="filtr">Веб-сайти</button>
+                    </li>
+                    <li>
+                        <button type="button" class="filtr">Додатки</button>
+                    </li>
+                    <li>
+                        <button type="button" class="filtr">Дизайн</button>
+                    </li>
+                    <li>
+                        <button type="button" class="filtr">Маркетинг</button>
+                    </li>
+                </ul>
 
-            </ul>
+            </div>
+            <div class="container">
+                
+                <ul class="card-set">
+                    <li class="item">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./images/img1.jpg" width="370" alt="Технокряк">
+                            </div>
+                        
+                            <div class="card-content">
+                                <h2 class="card-heading">Технокряк</h2>
+                                <p class="card-text">Веб-сайт</p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="item">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./images/img2.jpg" alt="Постер">
+                            </div>
+                        
+                            <div class="card-content">
+                                <h2 class="card-heading">Постер New Orlean vs Golden Star</h2>
+                                <p class="card-text">Дизайн</p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="item">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./images/img3.jpg" alt="Ресторан">
+                            </div>
+                        
+                            <div class="card-content">
+                                <h2 class="card-heading">Ресторан Seafood</h2>
+                                <p class="card-text">Додаток</p>
+                            </div>
+                        </article>
+                        
+                    </li>
+
+                    <li class="item">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./images/img4.jpg" alt="Проєкт">
+                            </div>
+                        
+                            <div class="card-content">
+                                <h2 class="card-heading">Проєкт Prime</h2>
+                                <p class="card-text">Маркетинг</p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="item">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./images/img5.jpg" alt="Проєкт">
+                            </div>
+                        
+                            <div class="card-content">
+                                <h2 class="card-heading">Проєкт Boxes</h2>
+                                <p class="card-text">Додаток</p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="item">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./images/img6.jpg" alt="Веб-сайт">
+                            </div>
+                        
+                            <div class="card-content">
+                                <h2 class="card-heading">Inspiration has no Borders</h2>
+                                <p class="card-text">Веб-сайт</p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="item">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./images/img7.jpg" alt="Видання">
+                            </div>
+                        
+                            <div class="card-content">
+                                <h2 class="card-heading">Видання Limited Edition</h2>
+                                <p class="card-text">Дизайн</p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="item">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./images/img8.jpg" alt="Проєкт">
+                            </div>
+                        
+                            <div class="card-content">
+                                <h2 class="card-heading">Проєкт LAB</h2>
+                                <p class="card-text">Маркетинг</p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="item">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./images/img9.jpg" alt="Додаток">
+                            </div>
+                        
+                            <div class="card-content">
+                                <h2 class="card-heading">Growing Business</h2>
+                                <p class="card-text">Додаток</p>
+                            </div>
+                        </article>
+                    </li>
+                    
+                
+                
+                </ul>
+
+            </div>
+            
         </section>
      
     </main>
