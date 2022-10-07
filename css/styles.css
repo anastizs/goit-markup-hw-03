@@ -152,8 +152,6 @@ ul{
 }
 
 .hero-btn{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -315,8 +313,6 @@ ul{
 }
 
 .filter-button {
-    font-family: "Roboto", sans-serif;
-    letter-spacing: 0.03em;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
