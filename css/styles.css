@@ -336,7 +336,7 @@ ul{
 /* CARD */
 .card{
     background: var(--hero-title);
-    border: 1px solid var(--bgr-portfolio);
+    
      
 }
 
@@ -373,6 +373,8 @@ ul{
 
 .card-content{
     padding: 20px 24px;
+    border: 1px solid var(--bgr-portfolio);
+    border-top-width: 0;
 }
  
 
