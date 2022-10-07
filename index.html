@@ -19,7 +19,8 @@
     <header class="page-header">
         <!-- Навігація на інші сторінки -->
         <div class="container">
-            <nav class="nav">
+            <div class="header">
+                <nav class="nav">
                 <a href="./index.html" class="logo"> <span>Web</span>Studio</a>
             
                 <ul class="site-nav">
@@ -34,21 +35,22 @@
                     </li>
                 </ul>
                 
-            </nav>
-            <ul class="contact-nav">
-                    <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-            </ul>
-            
-        </div>
-        
-    
+                </nav>
+                <ul class="contact-nav">
+                        <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+                        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+                </ul>
+            </div>
+        </div> 
     </header>
     <!-- Унікальний контент сторінки -->
     <main class="main">
+        
         <section class="hero">
-            <h1 class="hero-title">Ефективні рішення для <br> вашого бізнесу</h1>
-            <button type="button" class="hero-btn">Замовити послугу</button>
+            <div class="container">
+                <h1 class="hero-title">Ефективні рішення для <br> вашого бізнесу</h1>
+                <button type="button" class="hero-btn">Замовити послугу</button>
+            </div>
         </section>
         <!-- Особливості -->
         <section class="section">
@@ -78,7 +80,7 @@
         </section>
         <!-- Чим ми займаємося -->
         <section class="section ">
-            <h2 class="section-item">Чим ми займаємося</h2>
+            <h2 class="section-item work">Чим ми займаємося</h2>
             <div class="container">
                 <ul class="container-icons">
                     <li><img src="./images/box1.jpg" alt="Верстка" width="370"></li>
@@ -148,16 +150,20 @@
         </section>
 
     </main>
-    <!-- Підвал сторінки -->
+    <!-- Подвал страницы -->
     <footer class="footer">
-        <a href="" class="logo-footer"> <span>Web</span>Studio</a>
-        <address class="footer-address">
-            <p class="footer-address-text">м. Київ, пр-т Лесі Українки, 26</p>
-            <a href="mailto:info@devstudio.com" class="link link-footer">info@devstudio.com</a> <br>
-            <a href="tel:+380961111111" class="link link-footer">+38 096 111 11 11</a><br>
-
-
-        </address>
+        <div class="container">
+            <div class="footer-address">
+                <a href="index.html" class="footer-logo"><span>Web</span>Studio</a>
+    
+                <address class="address">
+                    <div class="street">м. Київ, пр-т Лесі Українки, 26 </br></div>
+                    <a href="mailto:info@devstudio.com">info@devstudio.com</a></br>
+                    <a href="tel:+380961111111">+38 096 111 11 11</a></br>
+                </address>
+            </div>
+               
+        </div>
     </footer>
 
 </body>

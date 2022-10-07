@@ -19,55 +19,54 @@
     <header class="page-header">
         <!-- Навігація на інші сторінки -->
         <div class="container">
-            <nav class="nav">
-                <a href="./index.html" class="logo"> <span>Web</span>Studio</a>
+            <div class="header">
+                <nav class="nav">
+                    <a href="./index.html" class="logo"> <span>Web</span>Studio</a>
     
-                <ul class="site-nav">
-                    <li>
-                        <a href="./index.html" class="link">Студія</a>
-                    </li>
-                    <li>
-                        <a href="./portfolio.html" class="link current">Портфоліо</a>
-                    </li>
-                    <li>
-                        <a href="" class="link">Контакти</a>
-                    </li>
+                    <ul class="site-nav">
+                        <li>
+                            <a href="./index.html" class="link current">Студія</a>
+                        </li>
+                        <li>
+                            <a href="./portfolio.html" class="link">Портфоліо</a>
+                        </li>
+                        <li>
+                            <a href="" class="link">Контакти</a>
+                        </li>
+                    </ul>
+    
+                </nav>
+                <ul class="contact-nav">
+                    <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
                 </ul>
-    
-            </nav>
-            <ul class="contact-nav">
-                <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-            </ul>
-    
+            </div>
         </div>
-    
-    
     </header>
     <!-- Унікальний контент сторінки -->
     <main>
-        <section class="type-cards">
-            <div>
-                <ul class="search list">
-                    <li>
-                        <button type="button" class="filtr">Усі</button>
-                    </li>
-                    <li>
-                        <button type="button" class="filtr">Веб-сайти</button>
-                    </li>
-                    <li>
-                        <button type="button" class="filtr">Додатки</button>
-                    </li>
-                    <li>
-                        <button type="button" class="filtr">Дизайн</button>
-                    </li>
-                    <li>
-                        <button type="button" class="filtr">Маркетинг</button>
-                    </li>
-                </ul>
-
-            </div>
+        <section class="section">
             <div class="container">
+                <div class="filter">
+                    <ul class="filter-set">
+                        <li>
+                            <button class="filter-button" type="button">Усі</button>
+                        </li>
+                        <li>
+                            <button class="filter-button" type="button">Веб-сайти</button>
+                        </li>
+                        <li>
+                            <button class="filter-button" type="button">Додатки</button>
+                        </li>
+                        <li>
+                            <button class="filter-button" type="button">Дизайн</button>
+                        </li>
+                        <li>
+                            <button class="filter-button" type="button">Маркетинг</button>
+                        </li>
+                    </ul>
+                </div>
+            
                 
                 <ul class="card-set">
                     <li class="item">
@@ -187,9 +186,7 @@
                             </div>
                         </article>
                     </li>
-                    
-                
-                
+       
                 </ul>
 
             </div>
@@ -197,15 +194,20 @@
         </section>
      
     </main>
-    <!-- Підвал сторінки -->
+    <!-- Подвал страницы -->
     <footer class="footer">
-        <a href="" class="logo-footer"> <span>Web</span>Studio</a>
-        <address class="footer-address">
-            <p class="footer-address-text">м. Київ, пр-т Лесі Українки, 26</p>
-            <a href="mailto:info@devstudio.com" class="link link-footer">info@devstudio.com</a> <br>
-            <a href="tel:+380961111111" class="link link-footer">+38 096 111 11 11</a><br>
+        <div class="container">
+            <div class="footer-address">
+                <a href="index.html" class="footer-logo"><span>Web</span>Studio</a>
     
-        </address>
+                <address class="address">
+                    <div class="street">м. Київ, пр-т Лесі Українки, 26 </br></div>
+                    <a href="mailto:info@devstudio.com">info@devstudio.com</a></br>
+                    <a href="tel:+380961111111">+38 096 111 11 11</a></br>
+                </address>
+            </div>
+    
+        </div>
     </footer>
 
 </body>

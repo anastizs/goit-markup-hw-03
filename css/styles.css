@@ -44,13 +44,16 @@ img{
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
-    display: inline-flex;
-    display: flex;
-    justify-content: space-between;
     
-    
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
+
+.header{
+    display: flex;
+    justify-content: space-between;    
+}
+
+
   /* Шапка сторінки */
   
 .page-header .link:hover,
@@ -80,7 +83,7 @@ span{
     margin-bottom: 32px;
     gap: 50px;
         
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .site-nav .link{
@@ -104,7 +107,7 @@ span{
     margin-top: 32px;
     margin-bottom: 32px;
           
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 
 }
 .contact-nav .link{
@@ -156,20 +159,22 @@ ul{
     line-height: 1.88;
     letter-spacing: 0.06em;
     border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    
     border: none;
 
     background: var(--accent-color);
     color: var(--hero-title);
 
-    padding: 10px 32px;
-    
+    padding: 10px 32px;    
+}
 
-    
+.hero-btn:active{
+    background: #188CE8;
 }
 
 /* Особливості */
 .section{
-    color: var(--primery-text-color);
     padding-top: 94px;
     padding-bottom: 94px;
     
@@ -200,6 +205,9 @@ ul{
     color: var(--title-text-color);
 }
 /* Чим ми займаємося */
+.work{
+    margin-top: -94px;
+}
 
 .section-item{
     font-weight: 700;
@@ -207,9 +215,7 @@ ul{
     line-height: 1.17;
     text-align: center;
     margin-bottom: 50px;
-    
-
-    color: var(--primery-text-color);
+   
 }
 
 
@@ -233,97 +239,126 @@ ul{
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    text-align: center;
+        
 }
 .section-team-text{
     font-size: 16px;
     line-height: 1.9;
-    text-align: center;
-    align-content:center;
     color: var(--title-text-color);
 }
-
-
-/* Підвал сторінки */
-.footer{
-    background-color: var(--bgr-color);
-    color: var(--hero-title);
+.team-card{
+    background: var(--hero-title);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
-.logo-footer{
+.team-content{
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* Footer */
+.footer {
+    background-color:var(--bgr-color);
+}
+
+.footer-address {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0;
+}
+
+.footer-logo {
+    color: var(--hero-title);
     font-family: "Raleway", sans-serif;
-    font-style: normal;
     font-size: 26px;
-    line-height: 1.19;
-
-    color: var(--hero-title);
+    line-height: 1.2;
     text-decoration: none;
-
+    margin-bottom: 20px;
 }
 
-.footer .link:hover,
-.footer .link:focus{
+.footer-logo span {
     color: var(--accent-color);
 }
-.footer-address{
+
+.address {
+    color: var(--hero-title);
+}
+
+.address:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer .street {
     font-style: normal;
     font-size: 14px;
-    line-height: 1.7;
-    text-decoration: none;
+    line-height: 1.71;
 }
-.link-footer{
-    color: var(--color-address);
+
+.address a {
+    color: rgba(255, 255, 255, 0.6);
     font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
     text-decoration: none;
 }
 
 
 /* Portfolio */
 
-.filtr{
-    font-family: 'Roboto';
-    font-style: normal;
+/* Filter */
+
+.filter-set {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
+}
+
+.filter-button {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.03em;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.62;
     text-align: center;
-    letter-spacing: 0.03em;
-
-    color: var(--primery-text-color);
-    border: none;
+    padding: 6px 22px;
     cursor: pointer;
+    border: 0;
+    background-color: var(--bgr-second-color);
+    color: var(--primery-text-color);
+    border-radius: 4px;
 }
-.type-cards{
-    margin-top: 94px;
-    margin-bottom: 94px;
+
+.filter-button:hover,
+.filter-button:focus {
+    background-color: var(--accent-color);
+    color: var(--hero-title);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
+/* CARD */
 .card{
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-    overflow: hidden;
-        
+    background: var(--hero-title);
+    border: 1px solid var(--bgr-portfolio);
+            
 }
-.card-thumb{
-    width: 370px;
-}
+
 .card-set{
     padding: 0;
     margin: 0;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    margin-top: calc(-1* var(--card-set-gap));
-    margin-left: calc(-1* var(--card-set-gap));
-    outline: 1px solid blue;
+    margin-top: -30px;
+    margin-left: -30px;
+    
 }
 
 .card-set > .item{
-    
     flex-basis: calc(100% / 3 - 30px);
-    margin-left: var(--card-set-gap);
-    margin-top: var(--card-set-gap);
-    
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
 
@@ -337,40 +372,11 @@ ul{
 .card-text{
     font-size: 16px;
     line-height: 1.9;
-     
-    letter-spacing: 0.03em;
     color: var(--title-text-color)
-    
-    
 }
 
 .card-content{
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-
+    padding: 20px 24px;
 }
-.search li{
-    display: inline-block;
-    
-
-}
-.search{
-    text-align: center;
-}
-.search .filtr:hover,
-.search .filtr:focus {
-    color: var(--accent-color);
-}
-
-.features-items{
-           
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-    display: inline-block;
-    
-    
-}
+ 
 
