@@ -51,10 +51,14 @@ img{
 .header{
     display: flex;
     justify-content: space-between;
+    
 }
 
 
   /* Шапка сторінки */
+.page-header{
+    border-bottom: 1px solid #ECECEC;
+}
   
 .page-header .link:hover,
 .page-header .link:focus{
@@ -79,10 +83,12 @@ span{
 }
 .site-nav{
     display: flex;
-    padding: 32px 0;
     gap: 50px;
         
     /* outline: 1px solid red; */
+}
+.link-padding{
+    padding: 32px 0;
 }
 
 .site-nav .link{
@@ -103,10 +109,8 @@ span{
 .contact-nav{
     display: inline-flex;
     gap: 50px;
-    padding: 32px 0;
-          
+             
     /* outline: 1px solid red; */
-
 }
 .contact-nav .link{
     font-style: normal;
@@ -123,11 +127,6 @@ ul{
     margin: 0;
     padding: 0;
 }
-.line{
-    border: 1px solid #ECECEC;
-    margin: 0;
-}
-
 
 /* Герой */
 .hero{
